@@ -1,0 +1,11 @@
+{
+    "name": "write-ebml",
+    "version": "0.0.0",
+    "description": "Write EBML buffers in node.js.",
+    "author": "Stéphan Kochen <stephan@kochen.nl>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/p1stream/write-ebml.git"
+    },
+    "main": "index.js"
+}
