@@ -286,7 +286,7 @@ static bool write_ebml(Isolate *isolate, Handle<Value> val, uint8_t *dst)
             case 's':
             case '8': {
                 contentVal->ToString()->WriteUtf8((char *) dst, -1, NULL,
-                        String::NO_NULL_TERMINATION | String::PRESERVE_ASCII_NULL);
+                        String::NO_NULL_TERMINATION | String::PRESERVE_ONE_BYTE_NULL);
                 break;
             }
             case 'b': {
