@@ -1,4 +1,6 @@
-exports = module.exports = require('./build/Release/ebml.node');
+var native = require('./build/Release/ebml.node');
+
+exports = module.exports = native.writeEBML;
 
 var tag = exports.tag = function(id, type) {
     var b = new Buffer(4);
