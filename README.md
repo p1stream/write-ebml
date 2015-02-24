@@ -28,4 +28,4 @@ A simple EBML writer. Currently targets node.js 0.11.
 
 [GPLv3](LICENSE)
 
-© 2014 — Stéphan Kochen
+© 2015 — Stéphan Kochen
